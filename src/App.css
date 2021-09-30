@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  font-family: "Mulish", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  background-color: #555;
+}
+.App > h2 {
+  color: #fff;
+  text-align: center;
+  background: #40005d;
+  margin: 0;
+  padding: 15px;
+}
+
+@media (max-width: 786px) {
+  .App > h2 {
+    text-align: left;
+  }
+}
